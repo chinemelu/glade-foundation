@@ -1,0 +1,37 @@
+.navbar {
+  padding: 1.5rem 2.5rem;
+}
+
+.navbar-nav {
+  font-size: 1.6rem;
+  color: #0D3E53;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-btn {
+  width: 11rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 1.5rem;
+}
+
+.donate-btn-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.donate-btn-text {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.donate-btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
