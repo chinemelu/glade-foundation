@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     flex: 0 0 33%;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 @media screen and (max-width: 768px) {
@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     flex: 0 0 20%;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 
