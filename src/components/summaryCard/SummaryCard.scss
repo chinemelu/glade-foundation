@@ -1,0 +1,41 @@
+.summary-card {
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -70%);
+  text-align: center;
+  background-color: #fff;
+  left: 50%;
+  padding: 3.5rem 2rem;
+  @media screen and (max-width: 768px) {
+    padding: 2rem 1.5rem;
+  }
+  &__stats {
+    &:not(:last-child) {
+      border-right: 1px solid #eef;
+    }
+    flex-basis: 0 0 1;
+    padding: 2rem 3.5rem;
+  }
+  &__figure {
+    font-size: 3rem;
+    color: #0D3E53;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  &__description {
+    font-size: 2rem;
+    color: #707876;
+    font-weight: 500;
+    margin: 0;
+    @media screen and (max-width: 768px) {
+      font-size: 1.6rem;
+    }
+  }
+}
+

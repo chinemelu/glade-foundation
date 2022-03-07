@@ -3,22 +3,54 @@
   position: relative;
 }
 
-.app-landing-image-primary-heading {
-  font-size: 6rem;
+
+@media screen and (min-width: 769px) {
+  .app-landing-image-primary-heading {
+    font-size: 6rem;
+  }
 }
 
-.app-landing-image-secondary-heading {
-  font-size: 3rem;
+@media screen and (max-width: 768px) {
+  .app-landing-image-primary-heading {
+    font-size: 4rem;
+  }
 }
 
-.app-landing-image-headings {
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (min-width: 769px) {
+  .app-landing-image-secondary-heading {
+    font-size: 3rem;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .app-landing-image-secondary-heading {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .app-landing-image-headings {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-landing-image-headings {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 
 .app-landing-image {
   width: 100%;
@@ -28,23 +60,46 @@
   position: relative;
 }
 
-.app-heading {
-  font-size: 5rem;
-  text-align: center;
-  color: rgba(13, 62, 83, 1);
+@media screen and (min-width: 769px) {
+  .app-heading {
+    font-size: 5rem;
+    text-align: center;
+    color: rgba(13, 62, 83, 1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-heading {
+    font-size: 3rem;
+    text-align: center;
+    color: rgba(13, 62, 83, 1);
+  }
 }
 
 .app-about-us-section {
   margin: 10rem auto 10rem auto;
 }
 
-.app-about-us-text-section {
-  display: flex;
-  justify-content: space-between;
-  margin: 5rem auto 0 auto;
-  max-width: 80%;
-  background-color: #F5F3ED;
-  padding: 5rem 5rem
+@media screen and (min-width: 769px) {
+  .app-about-us-text-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 0 auto;
+    max-width: 80%;
+    background-color: #F5F3ED;
+    padding: 5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-about-us-text-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 0 auto;
+    max-width: 95%;
+    background-color: #F5F3ED;
+    padding: 5rem 5rem;
+  }
 }
 
 .app-about-us-text {
@@ -78,13 +133,26 @@
   font-size: 3rem;
 }
 
-.app-call-for-relief {
-  position: absolute;
-  color: #fff;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+@media screen and (min-width: 769px) {
+  .app-call-for-relief {
+    position: absolute;
+    color: #fff;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-call-for-relief {
+    position: absolute;
+    color: #fff;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
 }
 
 .app-call-for-relief-text {
@@ -137,7 +205,6 @@
   transition: all .2s;
   margin-bottom: 2rem;
   z-index: 10;
-
 }
 
 .app-gallery-pic:hover {
@@ -197,4 +264,61 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 30%);
   justify-content: space-between;
+}
+
+.app-assistance-form-section {
+  margin: 10rem auto 10rem auto;
+  width: 60%;
+}
+
+.app-assistance-form-section-inputs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 4rem 6rem;
+}
+
+.app-footer-inner-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-footer__nav-heading,
+.app-footer-copyright-text {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.app-footer__nav, .app-footer__nav-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.app-footer__nav-icons {
+  display: flex;
+}
+
+.app-footer__nav-icon:not(:first-child) {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.app-footer__nav-link {
+  margin-bottom: 1.2rem;
+}
+
+.app-footer__nav-link:hover {
+  text-decoration: underline;
+}
+
+.app-footer__nav-anchor {
+  text-decoration: none;
+  color: #fff;
 }

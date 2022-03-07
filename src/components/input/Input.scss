@@ -1,0 +1,31 @@
+.navbar-input {
+  margin-right: 2rem;
+  border: 1px solid #707876;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+.input-label {
+  color: #0D3E53;
+  display: block;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+
+.app-assistance-form-dual-input-container-class {
+  flex: 0 0 45%;
+}
+
+.app-assistance-form-input {
+  border: 1px solid #707876;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  width: 100%;
+}
