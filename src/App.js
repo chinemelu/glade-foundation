@@ -165,7 +165,7 @@ function App() {
       <section className="app-gallery-section">
         <h1 className="app-heading">Gallery</h1>
         <div className="app-gallery-grid">
-          <a href="#" className="app-gallery-section-view-more-text">View more</a>
+          <a href="https://reactjs.org" className="app-gallery-section-view-more-text">View more</a>
           <img src="./charity-event-1.jpg" alt="charity event 1" className="app-gallery-pic app-gallery-pic-1" />
           <img src="./charity-event-2.jpg" alt="charity event 2" className="app-gallery-pic app-gallery-pic-2" />
           <img src="./charity-event-3.jpg" alt="charity event 3" className="app-gallery-pic app-gallery-pic-3" />
@@ -180,7 +180,7 @@ function App() {
       <section className="app-video-section">
         <h1 className="app-heading">Videos</h1>
         <div className="app-gallery-grid">
-          <a href="#" className="app-gallery-section-view-more-text">View more</a>
+          <a href="https://reactjs.org" className="app-gallery-section-view-more-text">View more</a>
           <div className="app-video-section-all-videos">
           { youtubeVideoEmbedList }
           </div>
@@ -230,9 +230,9 @@ function App() {
           <div className="app-footer__nav-container">
             <p className="app-footer__nav-heading">Links</p>
             <ul className="app-footer__nav">
-              <li className="app-footer__nav-link"><a className="app-footer__nav-anchor" href="#">GF Careers</a></li>
-              <li className="app-footer__nav-link"><a className="app-footer__nav-anchor" href="#">Contact Us</a></li>
-              <li className="app-footer__nav-link"><a className="app-footer__nav-anchor" href="#">Our Partners</a></li>
+              <li className="app-footer__nav-link"><a className="app-footer__nav-anchor" href="https://reactjs.org">GF Careers</a></li>
+              <li className="app-footer__nav-link"><a className="app-footer__nav-anchor" href="https://reactjs.org">Contact Us</a></li>
+              <li className="app-footer__nav-link"><a className="app-footer__nav-anchor" href="https://reactjs.org">Our Partners</a></li>
             </ul>
           </div>
 

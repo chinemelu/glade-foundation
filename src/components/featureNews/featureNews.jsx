@@ -10,7 +10,7 @@ const FeatureNews = ({ imageSrc, imageAlt, primaryHeading, bodyText, className }
       </div>
       <p className="feature-news-primary-heading">{primaryHeading}</p>
       <p className="feature-news-body-text">{bodyText}</p>
-      <a href="#" className="feature-news-learn-more-text">Learn more</a>
+      <a href="https://reactjs.org" className="feature-news-learn-more-text">Learn more</a>
     </div>
   )
 }
