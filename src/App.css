@@ -94,27 +94,53 @@
 @media screen and (max-width: 768px) {
   .app-about-us-text-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 5rem auto 0 auto;
-    max-width: 95%;
+    max-width: 90%;
     background-color: #F5F3ED;
-    padding: 5rem 5rem;
+    padding: 2rem;
   }
 }
 
-.app-about-us-text {
-  font-size: 1.6rem;
-  flex: 0 0 31%;
+@media screen and (min-width: 769px) {
+  .app-about-us-text {
+    font-size: 1.6rem;
+    flex: 0 0 31%;
+  }
 }
 
-.app-feature-news-section {
-  max-width: 80%;
-  margin: 10rem auto 10rem auto;
+@media screen and (max-width: 768px) {
+  .app-about-us-text {
+    font-size: 1.3rem;
+  }
 }
 
-.app-feature-news-container {
-  display: flex;
-  justify-content: center;
+@media screen and (min-width: 769px) {
+  .app-feature-news-section {
+    max-width: 80%;
+    margin: 10rem auto 10rem auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-feature-news-section {
+    max-width: 90%;
+    margin: 10rem auto 10rem auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .app-feature-news-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-feature-news-container {
+    display: flex;
+  }
 }
 
 .app-relief-fund-container {
@@ -129,47 +155,67 @@
   left: 5%;
 }
 
-.app-relief-distribution-primary-heading {
-  font-size: 3rem;
-}
-
 @media screen and (min-width: 769px) {
-  .app-call-for-relief {
-    position: absolute;
-    color: #fff;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+  .app-relief-distribution-primary-heading {
+    font-size: 3rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .app-call-for-relief {
-    position: absolute;
-    color: #fff;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+  .app-relief-distribution-primary-heading {
+    font-size: 2rem;
   }
 }
 
-.app-call-for-relief-text {
-  font-size: 2rem;
+.app-call-for-relief {
+  position: absolute;
+  color: #fff;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
-.app-relief-form-arrow {
-  width: 8rem;  
-  border-radius: 100%;
-  background-color: #F5F3ED;
-  cursor: pointer;
-  animation-name: arrow-pulsate;
-  animation-duration: 2.0s;
-  animation-timing-function: ease-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+@media screen and (min-width: 769px) {
+  .app-call-for-relief-text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-call-for-relief-text {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .app-relief-form-arrow {
+    width: 8rem;  
+    border-radius: 100%;
+    background-color: #F5F3ED;
+    cursor: pointer;
+    animation-name: arrow-pulsate;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-relief-form-arrow {
+    width: 5rem;  
+    border-radius: 100%;
+    background-color: #F5F3ED;
+    cursor: pointer;
+    animation-name: arrow-pulsate;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
 }
 
 @keyframes arrow-pulsate {
@@ -186,13 +232,27 @@
   }
 }
 
-.app-gallery-grid {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  max-width: 60%;
-  margin: 0 auto;
-  flex-wrap: wrap;
+
+@media screen and (min-width: 769px) {
+  .app-gallery-grid {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-gallery-grid {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
 }
 
 .app-gallery-pic {
@@ -213,27 +273,43 @@
   z-index: 20;
 }
 
-.app-gallery-section-view-more-text {
-  position: absolute;
-  top: -10rem;
-  right: 0;
-  font-size: 1.6rem; 
-  color: #0D3E53;
-  text-decoration: none;
-  margin-top: 2rem;
+@media screen and (min-width: 769px) {
+  .app-gallery-section-view-more-text {
+    position: absolute;
+    top: -10rem;
+    right: 0;
+    font-size: 1.6rem; 
+    color: #0D3E53;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
 }
 
-.app-gallery-section-view-more-text::after {
-  content: '';
-  position: absolute;
-  bottom: -.5rem;
-  left: 0;
-  background-color: #0D3E53;
-  height: 1px;
-  width: 0;
-  transform: scaleY(0);
-  transition: transform .2s, 
-              width .4s cubic-bezier(1,0,0,1) .2s;
+@media screen and (max-width: 768px) {
+  .app-gallery-section-view-more-text {
+    position: absolute;
+    top: -7rem;
+    right: 0;
+    font-size: 1rem; 
+    color: #0D3E53;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .app-gallery-section-view-more-text::after {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    background-color: #0D3E53;
+    height: 1px;
+    width: 0;
+    transform: scaleY(0);
+    transition: transform .2s, 
+                width .4s cubic-bezier(1,0,0,1) .2s;
+  }
 }
 
 .app-gallery-section-view-more-text::before {
@@ -266,9 +342,18 @@
   justify-content: space-between;
 }
 
-.app-assistance-form-section {
-  margin: 10rem auto 10rem auto;
-  width: 60%;
+@media screen and (min-width: 769px) {
+  .app-assistance-form-section {
+    margin: 10rem auto 10rem auto;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-assistance-form-section {
+    margin: 10rem auto 10rem auto;
+    width: 90%;
+  }
 }
 
 .app-assistance-form-section-inputs-container {
