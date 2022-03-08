@@ -10,7 +10,8 @@
   left: 50%;
   padding: 3.5rem 2rem;
   @media screen and (max-width: 768px) {
-    padding: 2rem 1.5rem;
+    padding: 1rem;
+    max-width: 95%;
   }
   &__stats {
     &:not(:last-child) {
@@ -18,6 +19,9 @@
     }
     flex-basis: 0 0 1;
     padding: 2rem 3.5rem;
+    @media screen and (max-width: 768px) {
+      padding: 1.5rem 1rem;
+    }
   }
   &__figure {
     font-size: 3rem;
@@ -25,7 +29,7 @@
     font-weight: bold;
     margin: 0 0 1rem 0;
     @media screen and (max-width: 768px) {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
   &__description {
@@ -34,7 +38,7 @@
     font-weight: 500;
     margin: 0;
     @media screen and (max-width: 768px) {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
   }
 }

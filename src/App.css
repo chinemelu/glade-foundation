@@ -28,28 +28,17 @@
   }
 }
 
-
-@media screen and (min-width: 769px) {
-  .app-landing-image-headings {
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.app-landing-image-headings {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 768px) {
-  .app-landing-image-headings {
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
+
+
 
 
 .app-landing-image {
@@ -76,8 +65,16 @@
   }
 }
 
-.app-about-us-section {
-  margin: 10rem auto 10rem auto;
+@media screen and (min-width: 769px) {
+  .app-about-us-section {
+    margin: 10rem auto 10rem auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-about-us-section {
+    margin: 5rem auto 5rem auto;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -126,7 +123,7 @@
 @media screen and (max-width: 768px) {
   .app-feature-news-section {
     max-width: 90%;
-    margin: 10rem auto 10rem auto;
+    margin: 5rem auto 5rem auto;
   }
 }
 
@@ -143,8 +140,16 @@
   }
 }
 
-.app-relief-fund-container {
-  margin: 10rem auto 10rem auto
+@media screen and (min-width: 769px) {
+  .app-relief-fund-container {
+    margin: 10rem auto 10rem auto
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-relief-fund-container {
+    margin: 5rem auto 5rem auto
+  }
 }
 
 .app-relief-distribution-headings {
@@ -331,8 +336,16 @@
   width: 100%;
 }
 
-.app-video-section {
-  margin: 10rem auto 10rem auto;
+@media screen and (min-width: 769px) {
+  .app-video-section {
+    margin: 10rem auto 10rem auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-video-section {
+    margin: 5rem auto 5rem auto;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -361,7 +374,7 @@
 
 @media screen and (max-width: 768px) {
   .app-assistance-form-section {
-    margin: 10rem auto 10rem auto;
+    margin: 5rem auto 5rem auto;
     width: 90%;
   }
 }

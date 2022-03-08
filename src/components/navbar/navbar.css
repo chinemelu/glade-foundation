@@ -1,5 +1,13 @@
-.navbar {
-  padding: 1.5rem 2.5rem;
+@media screen and (min-width: 769px) {
+  .navbar {
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
 }
 
 
@@ -41,9 +49,7 @@
 
 @media screen and (max-width: 768px) {
   .navbar-glade-fdn-text {
-    font-size: 1.6rem;
-    font-weight: 500;
-    text-align: center;
+    display: none;
   }
 }
 
@@ -59,8 +65,8 @@
   .navbar-input-button-section {
     display: flex;
     align-items: center;
-    flex: 0 0 20%;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 
@@ -69,10 +75,20 @@
   align-items: center;
 }
 
-.navbar-input-naira-symbol {
-  font-size: 3rem;
-  margin-right: 5px;
-  align-self: end;
+@media screen and (min-width: 769px) {
+  .navbar-input-naira-symbol {
+    font-size: 3rem;
+    margin-right: 5px;
+    align-self: end;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-input-naira-symbol {
+    font-size: 2.5rem;
+    margin-right: 1px;
+    align-self: end;
+  }
 }
 
 .navbar-content {
@@ -81,21 +97,50 @@
   align-items: center;
 }
 
-.navbar-btn {
-  width: 11rem;
-  border-radius: 1rem;
-  border: none;
-  padding: 1.3rem;
+@media screen and (min-width: 769px) {
+  .navbar-btn {
+    width: 11rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1.3rem;
+  }
 }
 
-.donate-btn-icon {
-  width: 2rem;
-  height: 2rem;
+@media screen and (max-width: 768px) {
+  .navbar-btn {
+    width: auto;
+    border-radius: 1rem;
+    border: none;
+    padding: .9rem;
+  }
 }
 
-.donate-btn-text {
-  font-size: 1.6rem;
-  margin: 0;
+@media screen and (min-width: 769px) {
+  .donate-btn-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .donate-btn-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .donate-btn-text {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .donate-btn-text {
+    font-size: 1.3rem;
+    margin: 0;
+  }
 }
 
 .donate-btn-content {
